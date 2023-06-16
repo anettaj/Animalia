@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=Space+Mono&display=swap" rel="stylesheet');
+:root{
+    --space-mono-font: 'Space Mono', monospace;
+    --border-dark-subtle: #373838; 
+}
+*{
+    /* box-sizing: border-box; */
+}
+body *{
+    /* font-family: var(--space-mono-font); */
+}
+/**
+Page Design
+*/
+body,
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #282A3A;
+}
+.page-title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: var(--secular-font);
+    text-align: center;
+    text-shadow: 0px 0px 3px #2020208c;
+}
+.border-dark-subtle{
+    border-color: var(--border-dark-subtle) !important;
+}
+/* Avatar File Input Wrapper */
+div#AvatarFileUpload {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #f9f9f9;
+    border: 3px solid #bbb;
+    border-radius: 50% 50%;
+    margin: auto;
+}
+/* Image Preview Wrapper and Container */
+div#AvatarFileUpload > .selected-image-holder{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50%;
+
+}
+div#AvatarFileUpload > .selected-image-holder{
+    width: 100%;
+    overflow: hidden;
+}
+div#AvatarFileUpload > .selected-image-holder>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-fit: center center;
+}
+
+/* Image Selector to Browse Image to Upload */
+div#AvatarFileUpload > .avatar-selector{
+    position: absolute;
+    bottom: 8px;
+    right: 19%;
+    width: 20px;
+    height: 20px;
+}
+div#AvatarFileUpload > .avatar-selector input[type="file"]{
+    display: none;
+}
+div#AvatarFileUpload > .avatar-selector > .avatar-selector-btn{
+    width: 100%;
+    height: 100%;
+    background: #f5f5f59e;
+    padding: 5px 7px;
+    border-radius: 50% 50%;
+}
+div#AvatarFileUpload > .avatar-selector > .avatar-selector-btn>img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    object-position: center center;
+    z-index: 2;
+}

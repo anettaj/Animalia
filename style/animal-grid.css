@@ -1,0 +1,50 @@
+body {
+    background-color: #171414;
+  }
+  
+  .image-grid {
+    padding: 12px;
+  }
+  
+  .image-row {
+      display: flex;
+      justify-content: center;
+      margin: 20px;
+
+    }
+  
+  .image-row .image {
+    margin: 12px;
+    height: 240px;
+    max-width: 100%;
+  }
+  
+  .image { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 6px 20px #423f25, 
+                0 6px 20px rgba(0, 0, 0, 0.15),
+                0 6px 20px rgba(0, 0, 0, 0.7);
+  }
+  
+  .click{
+    border:none;
+    /* box-shadow: 0px 4px 128px rgba(0, 0, 0, 0.35); */
+    background-color: #00000000;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .image-row {
+      flex-direction: column;
+    }
+    
+    .image-row .image {
+      flex-basis: auto;
+    }
+  }
+
+  /*hover code*/
+
+ 
+  /*hover code end*/

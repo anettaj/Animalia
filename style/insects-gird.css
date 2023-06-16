@@ -1,0 +1,156 @@
+body {
+  background-color: #171414;
+}
+
+.image-grid {
+  padding: 12px;
+}
+
+.image-row {
+  display: flex; 
+}
+
+.image-row .image {
+  margin: 12px;
+  height: 240px;  
+}
+
+.image { 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 6px 20px #423f25, 
+              0 6px 20px rgba(0, 0, 0, 0.15),
+              0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+  .image-01 {
+    background-image: url('https://source.unsplash.com/'); 
+    flex: 1;  
+  }
+
+  
+  .image-02 {
+    background-image: url('https://source.unsplash.com/'); 
+    flex: 1;  
+  }
+  
+  .image-03 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 2;  
+  }
+  
+  .image-04 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  
+  .image-05 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 2;
+  }
+  
+  .image-06 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 2;
+  }
+  
+  .image-07 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  
+  .image-08 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 3;
+  }
+  
+  .image-09 {
+    background-image: url('https://source.unsplash.com/');    
+    flex: 1;
+  }
+  
+  .image-10 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  
+  .image-11 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  
+  .image-12 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  .image-13 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  
+  .image-14 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  
+  .image-15 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  
+  .image-16 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+
+  .image-17 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  
+  .image-18 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  
+  .image-19 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  
+  .image-20 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  .image-21 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  .image-22 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  .image-23 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  .image-24 {
+    background-image: url('https://source.unsplash.com/');  
+    flex: 1;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .image-row {
+      flex-direction: column;
+    }
+    
+    .image-row .image {
+      flex-basis: auto;
+    }
+  }
+
+  /*hover code*/
+
+ 
+  /*hover code end*/
